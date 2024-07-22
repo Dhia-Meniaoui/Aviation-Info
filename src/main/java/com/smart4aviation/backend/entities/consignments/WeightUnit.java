@@ -7,9 +7,11 @@ public enum WeightUnit {
     LB("lb");
 
     private final String unit;
+
     WeightUnit(String unit) {
         this.unit = unit;
     }
+
     @JsonValue
     public String getUnit() {
         return unit;

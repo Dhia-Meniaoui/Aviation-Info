@@ -22,7 +22,7 @@ public class CommandLineRunnerConfig implements CommandLineRunner {
     private final CargoRepository cargoRepository;
 
     @Override
-    public void run(String[] args) throws Exception {
+    public void run(String... args) throws Exception {
         final ObjectMapper mapper = new ObjectMapper();
         mapper.findAndRegisterModules();
 

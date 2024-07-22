@@ -1,6 +1,8 @@
 package com.smart4aviation.backend.repositories;
 
 import com.smart4aviation.backend.entities.CargoEntity;
+import com.smart4aviation.backend.entities.consignments.Baggage;
+import com.smart4aviation.backend.entities.consignments.Cargo;
 import com.smart4aviation.backend.exceptions.CargoEntityNotFoundException;
 import org.springframework.stereotype.Repository;
 
